@@ -42,7 +42,7 @@ export default function ProjectShowcase({ project }: ProjectShowcaseProps) {
           {project.techStack.map((tech) => (
             <span
               key={tech}
-              className="rounded-full bg-github-darker px-3 py-1 text-xs text-github-success"
+              className="rounded-full bg-github-darker px-3 py-1 text-xs text-github-text"
             >
               {tech}
             </span>
