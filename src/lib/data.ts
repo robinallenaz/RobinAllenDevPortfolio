@@ -140,22 +140,22 @@ export interface Photo {
 
 export const photos: Photo[] = [
   {
-    src: "/images/OpportunityHack_img1.jpg",
+    src: "/RobinAllenDevPortfolio/images/OpportunityHack_img1.jpg",
     caption: "Collaborating at Opportunity Hack 2024",
     event: "Opportunity Hack 2024"
   },
   {
-    src: "/images/OpportunityHack_img2.jpg",
+    src: "/RobinAllenDevPortfolio/images/OpportunityHack_img2.jpg",
     caption: "Working with the team at Opportunity Hack",
     event: "Opportunity Hack 2024"
   },
   {
-    src: "/images/VolunteeringWithKatyPride.JPG",
+    src: "/RobinAllenDevPortfolio/images/VolunteeringWithKatyPride.JPG",
     caption: "Volunteering with Katy Pride",
     event: "Katy Pride"
   },
   {
-    src: "/images/WalkingInPrideParadeWithJonRosenthal.png",
+    src: "/RobinAllenDevPortfolio/images/WalkingInPrideParadeWithJonRosenthal.png",
     caption: "Walking in Pride Parade with Jon Rosenthal",
     event: "Pride Parade"
   }
