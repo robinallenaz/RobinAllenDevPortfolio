@@ -163,7 +163,7 @@ export const photos: Photo[] = [
 
 export const contactLinks = {
   github: "https://github.com/robinallenaz",
-  linkedin: "https://www.linkedin.com/in/robin-allen-az/",
+  linkedin: "https://www.linkedin.com/in/robin-allen-software-engineer/",
   email: "robinallenaz@gmail.com"
 };
 
@@ -171,5 +171,5 @@ export const aboutYou = {
   location: "Katy, TX",
   email: "robin.allen.az@gmail.com",
   github: "https://github.com/robinallenaz",
-  linkedin: "https://www.linkedin.com/in/robin-allen-software-engineer",
+  linkedin: "https://www.linkedin.com/in/robin-allen-software-engineer/"
 };
