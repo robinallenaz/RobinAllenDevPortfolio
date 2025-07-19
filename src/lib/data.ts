@@ -150,13 +150,13 @@ export const photos: Photo[] = [
     event: "Opportunity Hack 2024"
   },
   {
-    src: "/RobinAllenDevPortfolio/images/VolunteeringWithKatyPride.JPG",
-    caption: "Volunteering with Katy Pride",
+    src: "/RobinAllenDevPortfolio/images/KatyPride2ndBirthday.JPG",
+    caption: "With Katy Pride Board Members at Katy Pride's 2nd Birthday Party",
     event: "Katy Pride"
   },
   {
     src: "/RobinAllenDevPortfolio/images/WalkingInPrideParadeWithJonRosenthal.png",
-    caption: "Walking in Pride Parade with Jon Rosenthal",
+    caption: "Walking in Pride Parade with The Greater Houston LGBTQ+ Chamber of Commerce and Texas House Representative Jon E. Rosenthal",
     event: "Pride Parade"
   }
 ];
