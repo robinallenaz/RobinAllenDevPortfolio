@@ -152,7 +152,7 @@ export const photos: Photo[] = [
   {
     src: "/RobinAllenDevPortfolio/images/KatyPride2ndBirthday.JPG",
     caption: "With Katy Pride Board Members at Katy Pride's 2nd Birthday Party",
-    event: "Katy Pride"
+    event: "Katy Pride's 2nd Birthday Party"
   },
   {
     src: "/RobinAllenDevPortfolio/images/WalkingInPrideParadeWithJonRosenthal.png",
