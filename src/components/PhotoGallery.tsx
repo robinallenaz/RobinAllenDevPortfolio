@@ -1,5 +1,6 @@
 import React from 'react';
 import { photos } from '../lib/data';
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 const PhotoGallery = () => {
   return (
@@ -26,9 +27,10 @@ const PhotoGallery = () => {
                     href={photo.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-pink-300 text-xs mt-1 hover:text-pink-400 transition-colors"
+                    className="flex items-center gap-1 text-pink-300 text-xs mt-1 hover:text-pink-400 transition-colors group/link"
                   >
                     {photo.event}
+                    <FaExternalLinkAlt className="inline-block w-3 h-3 opacity-70 group-hover/link:opacity-100 transition-opacity" />
                   </a>
                 ) : (
                   <p className="text-pink-300 text-xs mt-1">{photo.event}</p>
