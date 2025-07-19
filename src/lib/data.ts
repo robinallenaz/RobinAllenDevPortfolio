@@ -136,6 +136,7 @@ export interface Photo {
   src: string;
   caption: string;
   event?: string;
+  link?: string;
 }
 
 export const photos: Photo[] = [
@@ -152,7 +153,8 @@ export const photos: Photo[] = [
   {
     src: "/RobinAllenDevPortfolio/images/KatyPride2ndBirthday.JPG",
     caption: "With Katy Pride Board Members at Katy Pride's 2nd Birthday Party",
-    event: "Katy Pride's 2nd Birthday Party"
+    event: "Katy Pride's 2nd Birthday Party",
+    link: "https://www.outsmartmagazine.com/2025/06/katy-pride-second-birthday/"
   },
   {
     src: "/RobinAllenDevPortfolio/images/WalkingInPrideParadeWithJonRosenthal.png",

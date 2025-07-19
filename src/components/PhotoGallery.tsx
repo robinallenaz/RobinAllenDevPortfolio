@@ -21,7 +21,18 @@ const PhotoGallery = () => {
             <div className="absolute bottom-0 left-0 right-0 bg-black/70 p-4 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
               <p className="text-white text-sm">{photo.caption}</p>
               {photo.event && (
-                <p className="text-pink-300 text-xs mt-1">{photo.event}</p>
+                photo.link ? (
+                  <a
+                    href={photo.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-pink-300 text-xs mt-1 hover:text-pink-400 transition-colors"
+                  >
+                    {photo.event}
+                  </a>
+                ) : (
+                  <p className="text-pink-300 text-xs mt-1">{photo.event}</p>
+                )
               )}
             </div>
           </div>
