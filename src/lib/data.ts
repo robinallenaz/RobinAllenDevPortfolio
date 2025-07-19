@@ -151,7 +151,7 @@ export const photos: Photo[] = [
     event: "Opportunity Hack 2024"
   },
   {
-    src: "/RobinAllenDevPortfolio/images/KatyPride2ndBirthday.JPG",
+    src: "/RobinAllenDevPortfolio/images/KatyPride2ndBirthday.jpg",
     caption: "With Katy Pride Board Members at Katy Pride's 2nd Birthday Party",
     event: "Katy Pride's 2nd Birthday Party",
     link: "https://www.outsmartmagazine.com/2025/06/katy-pride-second-birthday/"
