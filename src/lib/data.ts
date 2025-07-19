@@ -157,7 +157,7 @@ export const photos: Photo[] = [
   {
     src: "/RobinAllenDevPortfolio/images/WalkingInPrideParadeWithJonRosenthal.png",
     caption: "Walking in Pride Parade with The Greater Houston LGBTQ+ Chamber of Commerce and Texas House Representative Jon E. Rosenthal",
-    event: "Pride Parade"
+    event: "2025 Houston Pride Parade"
   }
 ];
 
