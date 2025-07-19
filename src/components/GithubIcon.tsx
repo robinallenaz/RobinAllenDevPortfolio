@@ -1,6 +1,6 @@
 import React from 'react';
 import { contactLinks } from '../lib/data';
-import githubIcon from '../images/github+rainbow-1330289839139440796_0px.svg';
+import githubIcon from '../images/github-rainbow.svg';
 
 export default function GithubIcon() {
   return (
