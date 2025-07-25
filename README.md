@@ -13,7 +13,7 @@ A modern, responsive software engineering portfolio showcasing my technical expe
 
 ### Key Features
 - 🎨 Modern, responsive design using Tailwind CSS
-- ⚡ Fast performance and SEO optimized
+- ⚡ Fast performance
 - 📱 Mobile-first approach
 - 🎯 Accessibility focused
 
