@@ -129,6 +129,17 @@ export const projects: Project[] = [
       "Integrated payment processing and email service APIs for automated donor communications"
     ],
     github: "https://github.com/2024-Arizona-Opportunity-Hack/HeatSyncers-Nature-sEdgeWildlife-Nature-sEdgeWildlifeandReptileRescueDigitalTransformation",
+  },
+  {
+    title: "Prism Uganda NGO Website",
+    description: "Developed a mission-critical WordPress website for Prism Uganda, a transgender-led NGO founded in 2020 that provides vital mental health services and human rights advocacy. Built on December 7th, 2024 during Out in Tech's Digital Corps event, the site serves as a 24/7 digital hub for their comprehensive programs including the Tuli Nawe support initiative, Mind Guard Center crisis services, and economic empowerment programs.",
+    techStack: ["WordPress", "HTML", "CSS", "PHP"],
+    points: [
+      "Created an accessible platform showcasing six core programs including emergency shelter services, mental health support, and economic empowerment initiatives targeting Uganda's transgender community",
+      "Integrated partner organization profiles and donation systems to enhance visibility with international donors and support organizational sustainability",
+      "Implemented a blog system to share critical updates about human rights advocacy and community impact, alongside comprehensive program information and emergency contact resources"
+    ],
+    demo: "https://prismuganda.wordpress.com/"
   }
 ];
 
