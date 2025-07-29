@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/RobinAllenDevPortfolio/static/css/main.20c134c8.css",
-    "main.js": "/RobinAllenDevPortfolio/static/js/main.9bb68172.js",
+    "main.css": "/RobinAllenDevPortfolio/static/css/main.4c055e19.css",
+    "main.js": "/RobinAllenDevPortfolio/static/js/main.b8525e1e.js",
     "static/js/453.1407b060.chunk.js": "/RobinAllenDevPortfolio/static/js/453.1407b060.chunk.js",
     "static/media/github-rainbow.svg": "/RobinAllenDevPortfolio/static/media/github-rainbow.157fef45ff89bfdcfc1b9f21dea4cd8e.svg",
     "index.html": "/RobinAllenDevPortfolio/index.html",
-    "main.20c134c8.css.map": "/RobinAllenDevPortfolio/static/css/main.20c134c8.css.map",
-    "main.9bb68172.js.map": "/RobinAllenDevPortfolio/static/js/main.9bb68172.js.map",
+    "main.4c055e19.css.map": "/RobinAllenDevPortfolio/static/css/main.4c055e19.css.map",
+    "main.b8525e1e.js.map": "/RobinAllenDevPortfolio/static/js/main.b8525e1e.js.map",
     "453.1407b060.chunk.js.map": "/RobinAllenDevPortfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20c134c8.css",
-    "static/js/main.9bb68172.js"
+    "static/css/main.4c055e19.css",
+    "static/js/main.b8525e1e.js"
   ]
 }
