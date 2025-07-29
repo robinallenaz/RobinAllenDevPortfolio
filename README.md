@@ -5,7 +5,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-100000?style=for-the-badge&logo=github&logoColor=white)](https://pages.github.com/)
 
-[🌐 View Live Portfolio](https://robinallenaz.github.io/RobinAllenDevPortfolio) | [📧 Contact](mailto:robin.allen.az@gmail.com) | [💼 LinkedIn](https://www.linkedin.com/in/robin-allen-software-engineer/)
+[View Live Portfolio](https://robinallenaz.github.io/RobinAllenDevPortfolio) | [Contact](mailto:robin.allen.az@gmail.com) | [LinkedIn](https://www.linkedin.com/in/robin-allen-software-engineer/)
 
 ## Overview
 
