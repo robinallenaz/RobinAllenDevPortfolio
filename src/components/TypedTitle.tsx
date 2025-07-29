@@ -10,10 +10,7 @@ export default function TypedTitle() {
 
   return (
     <div className="space-y-1">
-      <h1 className="text-3xl md:text-5xl font-bold pride-gradient pride-glow">
-        Robin Allen
-      </h1>
-      <div className="text-xl md:text-3xl font-bold pride-gradient font-['Fira_Code']">
+      <div className="text-xl md:text-2xl font-medium text-github-text/80 font-['Fira_Code']">
         <ReactTyped
           strings={roles}
           typeSpeed={50}
