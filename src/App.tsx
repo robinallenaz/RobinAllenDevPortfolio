@@ -25,11 +25,13 @@ function App() {
         <meta property="og:description" content="Full Stack Developer specializing in building tech for social good. Experienced in pet health platforms, nonprofit portals, and web development." />
         <meta property="og:url" content="https://robinallenaz.github.io/RobinAllenDevPortfolio" />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://robinallenaz.github.io/RobinAllenDevPortfolio/logo512.png" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Robin Allen - Full Stack Developer | Portfolio" />
         <meta name="twitter:description" content="Full Stack Developer specializing in building tech for social good. Experienced in pet health platforms, nonprofit portals, and web development." />
+        <meta name="twitter:image" content="https://robinallenaz.github.io/RobinAllenDevPortfolio/logo512.png" />
         
         {/* JSON-LD structured data */}
         <script type="application/ld+json">
