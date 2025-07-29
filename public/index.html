@@ -10,6 +10,8 @@
       content="Robin Allen's Software Engineering Portfolio"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -25,6 +27,9 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Robin Allen | Software Engineer</title>
+    <!-- Preload critical assets -->
+    <link rel="preload" href="%PUBLIC_URL%/static/css/main.css" as="style" />
+    <link rel="preload" href="%PUBLIC_URL%/static/js/main.js" as="script" />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
