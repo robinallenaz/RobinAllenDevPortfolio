@@ -45,8 +45,8 @@ function App() {
               "@type": "Offer",
               "itemOffered": [{
                 "@type": "Service",
-                "name": "Custom Web Development",
-                "description": "Modern, responsive websites built with React and TypeScript"
+                "name": "Web Development",
+                "description": "Modern, high-performance platforms and applications built with React and TypeScript"
               }, {
                 "@type": "Service",
                 "name": "UI/UX Implementation",
@@ -177,9 +177,9 @@ function App() {
               <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Services</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
                 <div className="bg-github-dark p-6 rounded-lg border border-github-text/10 hover:border-github-text/20 transition-all">
-                  <h3 className="text-xl font-bold mb-4">Web Development for Social Good</h3>
+                  <h3 className="text-xl font-bold mb-4">Web Development</h3>
                   <p className="text-github-text/80">
-                    Building modern, high-performance platforms for nonprofits and socially conscious organizations.
+                    Building modern, high-performance platforms and applications with React and TypeScript.
                   </p>
                 </div>
                 <div className="bg-github-dark p-6 rounded-lg border border-github-text/10 hover:border-github-text/20 transition-all">
