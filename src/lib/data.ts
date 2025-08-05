@@ -108,13 +108,14 @@ export interface Project {
 export const projects: Project[] = [
   {
     title: "Pet Health Tracker",
-    description: "A comprehensive pet health monitoring platform designed to help pet owners track, visualize, and manage their pets' well-being through an intuitive and modern interface.",
+    description: "A comprehensive pet health monitoring platform designed to help owners track, visualize, and manage their pets' well-being through a clean, responsive interface.",
     techStack: ["React", "Node.js", "Express", "PostgreSQL", "CSS"],
     points: [
-      "Implemented a modern single-page application using React and Node.js with responsive design",
-      "Built a robust REST API system with PostgreSQL for scalable data management",
-      "Created dynamic data visualization components for health trend analysis",
-      "Designed an intuitive user interface with color-coded elements for improved UX"
+      "Developed a full-stack web app using React and Node.js with a responsive, accessible UI",
+      "Built a scalable REST API with PostgreSQL for secure data storage and retrieval",
+      "Designed and implemented data visualizations to track health trends over time",
+      "Integrated Google OAuth for secure user authentication",
+      "Collaborated with a team in an agile environment using GitHub Projects and clear documentation"
     ],
     github: "https://github.com/Rainbowfish-Tech-Collab/Pet-Health-Tracker",
   },
@@ -163,7 +164,7 @@ export const photos: Photo[] = [
   },
   {
     src: "/RobinAllenDevPortfolio/images/KatyPride2ndBirthday.jpg",
-    caption: "With Katy Pride Board Members at Katy Pride's 2nd Birthday Party",
+    caption: "Celebrating Katy Pride's 2nd Birthday Party with fellow Katy Pride Board members",
     event: "Katy Pride's 2nd Birthday Party",
     link: "https://www.outsmartmagazine.com/2025/06/katy-pride-second-birthday/"
   },
