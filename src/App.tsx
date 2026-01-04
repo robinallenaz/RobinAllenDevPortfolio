@@ -4,13 +4,15 @@ import AnimatedBeam from './components/AnimatedBeam';
 import Skills from './components/Skills';
 import ProjectShowcase from './components/ProjectShowcase';
 import Contact from './components/Contact';
-import { projects } from './lib/data';
+import { getWebProjects, getAudioProjects } from './lib/data';
 import TypedTitle from './components/TypedTitle';
 import GithubIcon from './components/GithubIcon';
 import PhotoGallery from './components/PhotoGallery';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const webProjects = getWebProjects();
+  const audioProjects = getAudioProjects();
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
@@ -173,7 +175,7 @@ function App() {
             </section>
 
             {/* Services Section */}
-            <section id="services" className="py-16">
+            <section id="services" className="py-8">
               <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Services</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
                 <div className="bg-github-dark p-6 rounded-lg border border-github-text/10 hover:border-github-text/20 transition-all">
@@ -203,13 +205,23 @@ function App() {
             {/* Photo Gallery Section */}
             <PhotoGallery />
 
-            {/* Projects Section */}
+            {/* Web Projects Section */}
             <section id="projects" className="py-20">
               <h2 className="text-3xl font-bold text-github-text mb-8">
-                Featured Projects
+                Web Development Projects
+              </h2>
+              <div className="space-y-6 mb-16">
+                {webProjects.map((project) => (
+                  <ProjectShowcase key={project.title} project={project} />
+                ))}
+              </div>
+
+              {/* Audio Projects Section */}
+              <h2 className="text-3xl font-bold text-github-text mb-8">
+                Audio Engineering Projects
               </h2>
               <div className="space-y-6">
-                {projects.map((project) => (
+                {audioProjects.map((project) => (
                   <ProjectShowcase key={project.title} project={project} />
                 ))}
               </div>

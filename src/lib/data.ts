@@ -15,6 +15,7 @@ import {
   SiFigma,
   SiPython,
   SiRubyonrails,
+  SiSpotify,
 } from "react-icons/si";
 import { IconType } from "react-icons";
 
@@ -103,22 +104,40 @@ export interface Project {
   points: string[];
   github?: string;
   demo?: string;
+  icon?: IconType;
+  category: 'web' | 'audio';
+  spotifyEmbedUrl?: string;
 }
 
 export const projects: Project[] = [
+  {
+    title: "Trans Voices Podcast",
+    description: "A community-driven podcast uplifting trans and queer experiences. As Podcast Engineer & Producer, I bring my engineering expertise and creative approach to shape the podcast's sound, flow, and production quality, working closely with our hosts Elih, Theo, and Rene to create meaningful, authentic conversations that uplift trans and queer voices.",
+    techStack: ["Audio Engineering", "Podcast Production", "Sound Design", "Audio Editing", "Content Management"],
+    icon: SiSpotify,
+    category: 'audio',
+    points: [
+      "Handle complete audio production workflow from recording to final mastered episodes",
+      "Engineer interviews and conversations with community artists, advocates, and storytellers",
+      "Distribute across major platforms including Spotify, Amazon Music, and Apple Podcasts"
+    ],
+    demo: "https://open.spotify.com/show/6CXx2ymgjSojkq5zhUFSXi?si=61c0f899e1a440e7",
+    spotifyEmbedUrl: "https://open.spotify.com/embed/show/6CXx2ymgjSojkq5zhUFSXi?utm_source=generator"
+  },
   {
     title: "Fort Bend LGBTQIA+ Community Resources",
     description: "A comprehensive resource hub serving LGBTQIA+ communities in Fort Bend County, Texas and surrounding areas with access to healthcare, legal services, support groups, and inclusive events.",
     techStack: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "Tailwind CSS", "Cloudinary"],
     points: [
-      "Built a full-stack web application with searchable resource directory, events page with event links, and community photo gallery",
-      "Implemented advanced filtering system by location, type, and audience for 100+ vetted community resources",
+      "Built a full-stack web application with searchable resource directory, events page, and community photo gallery",
+      "Implemented advanced filtering system by location, type, and audience for vetted community resources",
       "Created secure admin dashboard with role-based access control and content moderation workflows",
       "Integrated Cloudinary for optimized image storage and newsletter system with responsive email delivery",
       "Achieved WCAG 2.1 AA compliance with semantic HTML5, ARIA labels, and keyboard navigation support",
-      "Deployed on Netlify and Render with custom domain, serving Fort Bend County and Houston metropolitan area"
+      "Deployed as monorepo with Netlify frontend and Render backend API, featuring custom domain and SSL certificates"
     ],
-    demo: "https://ftbend-lgbtqia-community.org"
+    demo: "https://ftbend-lgbtqia-community.org",
+    category: 'web',
   },
   {
     title: "Pet Health Tracker",
@@ -127,11 +146,12 @@ export const projects: Project[] = [
     points: [
       "Developed a full-stack web app using React and Node.js with a responsive, accessible UI",
       "Built a scalable REST API with PostgreSQL for secure data storage and retrieval",
-      "Designed and implemented data visualizations to track health trends over time",
+      "Designed and implemented data visualizations to track pets' health trends over time",
       "Integrated Google OAuth for secure user authentication",
       "Collaborated with a team in an agile environment using GitHub Projects and clear documentation"
     ],
     github: "https://github.com/Rainbowfish-Tech-Collab/Pet-Health-Tracker",
+    category: 'web',
   },
   {
     title: "Nature's Edge Wildlife Rescue Portal",
@@ -144,19 +164,25 @@ export const projects: Project[] = [
       "Integrated payment processing and email service APIs for automated donor communications"
     ],
     github: "https://github.com/2024-Arizona-Opportunity-Hack/HeatSyncers-Nature-sEdgeWildlife-Nature-sEdgeWildlifeandReptileRescueDigitalTransformation",
+    category: 'web',
   },
   {
     title: "Prism Uganda NGO Website",
     description: "Developed a mission-critical WordPress website for Prism Uganda, a transgender-led NGO founded in 2020 that provides vital mental health services and human rights advocacy. Built on December 7th, 2024 during Out in Tech's Digital Corps event, the site serves as a 24/7 digital hub for their comprehensive programs including the Tuli Nawe support initiative, Mind Guard Center crisis services, and economic empowerment programs.",
     techStack: ["WordPress", "HTML", "CSS", "PHP"],
     points: [
-      "Created an accessible platform showcasing six core programs including emergency shelter services, mental health support, and economic empowerment initiatives targeting Uganda's transgender community",
-      "Integrated partner organization profiles and donation systems to enhance visibility with international donors and support organizational sustainability",
-      "Implemented a blog system to share critical updates about human rights advocacy and community impact, alongside comprehensive program information and emergency contact resources"
+      "Built a WordPress website featuring six core programs including emergency shelter, mental health support, and economic empowerment for Uganda's transgender community",
+      "Added partner profiles and donation systems to connect with international donors and support the organization's sustainability",
+      "Created a blog to share updates on human rights advocacy and community impact, with program information and emergency contacts"
     ],
-    demo: "https://prismuganda.wordpress.com/"
+    demo: "https://prismuganda.wordpress.com/",
+    category: 'web',
   }
 ];
+
+// Helper functions to get projects by category
+export const getWebProjects = () => projects.filter(project => project.category === 'web');
+export const getAudioProjects = () => projects.filter(project => project.category === 'audio');
 
 export interface Photo {
   src: string;
