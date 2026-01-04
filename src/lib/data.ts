@@ -107,6 +107,20 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Fort Bend LGBTQIA+ Community Resources",
+    description: "A comprehensive resource hub serving LGBTQIA+ communities in Fort Bend County, Texas and surrounding areas with access to healthcare, legal services, support groups, and inclusive events.",
+    techStack: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "Tailwind CSS", "Cloudinary"],
+    points: [
+      "Built a full-stack web application with searchable resource directory, events page with event links, and community photo gallery",
+      "Implemented advanced filtering system by location, type, and audience for 100+ vetted community resources",
+      "Created secure admin dashboard with role-based access control and content moderation workflows",
+      "Integrated Cloudinary for optimized image storage and newsletter system with responsive email delivery",
+      "Achieved WCAG 2.1 AA compliance with semantic HTML5, ARIA labels, and keyboard navigation support",
+      "Deployed on Netlify and Render with custom domain, serving Fort Bend County and Houston metropolitan area"
+    ],
+    demo: "https://ftbend-lgbtqia-community.org"
+  },
+  {
     title: "Pet Health Tracker",
     description: "A comprehensive pet health monitoring platform designed to help owners track, visualize, and manage their pets' well-being through a clean, responsive interface.",
     techStack: ["React", "Node.js", "Express", "PostgreSQL", "CSS"],
