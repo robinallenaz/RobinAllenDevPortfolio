@@ -112,7 +112,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     title: "Trans Voices Podcast",
-    description: "A community-driven podcast uplifting trans and queer experiences. As Podcast Engineer & Producer, I bring my engineering expertise and creative approach to shape the podcast's sound, flow, and production quality, working closely with our hosts Elih, Theo, and Rene to create meaningful, authentic conversations that uplift trans and queer voices.",
+    description: "A community-driven podcast uplifting trans and queer experiences. As Podcast Engineer & Producer, I bring my engineering expertise and creative approach to shape the podcast's sound, flow, and production quality, working closely with our hosts Elih, Theo, and Rene to create meaningful, authentic conversations.",
     techStack: ["Audio Engineering", "Podcast Production", "Sound Design", "Audio Editing", "Content Management"],
     icon: SiSpotify,
     category: 'audio',
