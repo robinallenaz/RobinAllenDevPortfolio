@@ -9,33 +9,21 @@
 
 ## Overview
 
-A modern, responsive software engineering portfolio showcasing my technical expertise, project achievements, and community involvement. Built with modern web technologies and best practices in mind.
+A portfolio showcasing my technical expertise, projects, and community involvement. Built with modern web technologies and best practices in mind.
 
-### Key Features
-- 🎨 Modern, responsive design using Tailwind CSS
-- ⚡ Fast performance
-- 📱 Mobile-first approach
-- 🎯 Accessibility focused
+## Featured Projects
 
-## 🌟 Featured Projects
+### [Fort Bend LGBTQIA Community Resources](https://ftbend-lgbtqia-community.org/)
+A comprehensive resource hub for LGBTQIA+ individuals and allies in Fort Bend County, Texas and surrounding areas. Find mental health support, legal resources, community events, inclusive organizations, and more.
 
-### Pet Health Tracker
-A comprehensive pet health monitoring platform designed to help pet owners track and manage their pets' well-being through an intuitive interface.
+### [Pet Health Tracker](https://github.com/Rainbowfish-Tech-Collab/Pet-Health-Tracker)
+A pet health monitoring platform designed to help pet owners track and manage their pets' well-being through an intuitive interface.
 
-**Tech Stack & Highlights:**
-- React & Node.js with responsive design
-- PostgreSQL for scalable data management
--  Dynamic health trend visualization
-- Intuitive UX with color-coded elements
+### [Nature's Edge Wildlife Rescue Portal](https://github.com/2024-Arizona-Opportunity-Hack/HeatSyncers-Nature-sEdgeWildlife-Nature-sEdgeWildlifeandReptileRescueDigitalTransformation)
+A Ruby on Rails donor management system built during the 2024 Opportunity Hack hackathon with integrated payment processing.
 
-### Nature's Edge Wildlife Rescue Portal
-A Ruby on Rails donor management system built during the 2024 Opportunity Hack hackathon.
-
-**Tech Stack & Highlights:**
-- Full-featured donor management system built in 24 hours
--  Rails & PostgreSQL backend
-- Responsive UI with Tailwind CSS
-- Integrated payment processing and automated communications
+### [Prism Uganda NGO Website](https://prismuganda.wordpress.com/)
+A WordPress website for Prism Uganda, a transgender-led NGO founded in 2020 that provides vital mental health services and human rights advocacy. Built on December 7th, 2024 during Out in Tech's Digital Corps event, the site serves as a 24/7 digital hub for their comprehensive programs including the Tuli Nawe support initiative, Mind Guard Center crisis services, and economic empowerment programs.
 
 ## 🛠️ Technical Stack
 
@@ -44,18 +32,18 @@ A Ruby on Rails donor management system built during the 2024 Opportunity Hack h
 - Modern JavaScript (ES6+)
 - HTML5/CSS3
 - Redux for state management
-- Responsive design principles
 
 ### Backend Technologies
 - Node.js & Express.js
 - MongoDB
+- PostgreSQL
 - Python
 - RESTful API design
 
 ## 🤝 Community Leadership
 
 - **Hackathon Participant:** Active contributor at Opportunity Hack 2024, sunhacks 2024, and DiverseHacks 2024
-- **Community Leader:** Serving as Treasurer on the Executive Board of Katy Pride
+- **Community Leader:** Serving as Director of Digital Systems and Web Strategy on the Executive Board of Katy Pride
 
 ## 🚀 Getting Started
 
