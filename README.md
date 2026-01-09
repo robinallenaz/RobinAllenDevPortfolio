@@ -9,7 +9,7 @@
 
 ## Overview
 
-A portfolio showcasing my technical expertise, projects, and community involvement. Built with modern web technologies and best practices in mind.
+A portfolio website showcasing my technical expertise, projects, and community involvement.
 
 ## Featured Projects
 
@@ -23,7 +23,10 @@ A pet health monitoring platform designed to help pet owners track and manage th
 A Ruby on Rails donor management system built during the 2024 Opportunity Hack hackathon with integrated payment processing.
 
 ### [Prism Uganda NGO Website](https://prismuganda.wordpress.com/)
-A WordPress website for Prism Uganda, a transgender-led NGO founded in 2020 that provides vital mental health services and human rights advocacy. Built on December 7th, 2024 during Out in Tech's Digital Corps event, the site serves as a 24/7 digital hub for their comprehensive programs including the Tuli Nawe support initiative, Mind Guard Center crisis services, and economic empowerment programs.
+A WordPress website for Prism Uganda, a transgender-led NGO. Built on December 7th, 2024 during Out in Tech's Digital Corps event, the site serves as a 24/7 digital hub for their comprehensive programs including the Tuli Nawe support initiative, Mind Guard Center crisis services, and economic empowerment programs.
+
+### [Trans Voices Podcast](https://open.spotify.com/show/6CXx2ymgjSojkq5zhUFSXi)
+A podcast uplifting trans and queer experiences. As Podcast Engineer & Producer, I bring my engineering expertise and creative approach to shape the podcast's sound, flow, and production quality, working closely with our hosts Elih, Theo, and Rene to create meaningful, authentic conversations.
 
 ## 🛠️ Technical Stack
 
@@ -43,7 +46,7 @@ A WordPress website for Prism Uganda, a transgender-led NGO founded in 2020 that
 ## 🤝 Community Leadership
 
 - **Hackathon Participant:** Active contributor at Opportunity Hack 2024, sunhacks 2024, and DiverseHacks 2024
-- **Community Leader:** Serving as Director of Digital Systems and Web Strategy on the Executive Board of Katy Pride
+- **Community Leader:** Director of Digital Systems and Web Strategy on the Executive Board of Katy Pride
 
 ## 🚀 Getting Started
 
