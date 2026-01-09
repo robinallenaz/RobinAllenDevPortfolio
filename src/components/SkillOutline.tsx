@@ -15,7 +15,7 @@ export default function SkillOutline({ Icon, text, className }: SkillOutlineProp
         className
       )}
     >
-      <Icon className="h-5 w-5 text-github-accent group-hover:text-pink-300 transition-colors" />
+      <Icon className="h-5 w-5 text-github-accent group-hover:text-blue-400 transition-all duration-300 ease-out group-hover:scale-110" />
       <span className="text-sm text-github-text">{text}</span>
     </div>
   );

@@ -25,7 +25,7 @@ export default function ProjectShowcase({ project }: ProjectShowcaseProps) {
                 href={project.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-github-text hover:text-github-success transition-colors"
+                className="text-github-text hover:text-blue-400 transition-all duration-300 ease-out hover:scale-110"
               >
                 <FaGithub className="h-5 w-5" />
               </a>
@@ -35,7 +35,7 @@ export default function ProjectShowcase({ project }: ProjectShowcaseProps) {
                 href={project.demo}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-github-text hover:text-github-success transition-colors"
+                className="text-github-text hover:text-blue-400 transition-all duration-300 ease-out hover:scale-110"
               >
                 <FaExternalLinkAlt className="h-5 w-5" />
               </a>
@@ -47,7 +47,7 @@ export default function ProjectShowcase({ project }: ProjectShowcaseProps) {
           {project.techStack.map((tech) => (
             <span
               key={tech}
-              className="rounded-full bg-github-darker px-3 py-1 text-xs text-github-accent hover:text-pink-300 transition-colors"
+              className="rounded-full bg-github-darker px-3 py-1 text-xs text-github-accent hover:text-blue-400 transition-all duration-300 ease-out hover:scale-105"
             >
               {tech}
             </span>
