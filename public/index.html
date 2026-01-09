@@ -12,6 +12,8 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" /></noscript>
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -27,9 +29,14 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Robin Allen | Software Engineer</title>
+    <!-- Critical CSS for above-the-fold content -->
+    <style>
+      body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background:#0d1117;color:#c9d1d9;min-height:100vh}.min-h-screen{min-height:100vh}.bg-gradient-to-br{background-image:linear-gradient(to bottom right,var(--tw-gradient-stops))}.from-gray-900{--tw-gradient-from:#111827 var(--tw-gradient-from-position)}.via-gray-800{--tw-gradient-to:#1f2937 var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),#1f2937 var(--tw-gradient-via-position),var(--tw-gradient-to)}.to-gray-900{--tw-gradient-to:#111827 var(--tw-gradient-to-position)}.text-center{text-align:center}.flex{display:flex}.items-center{align-items:center}.justify-center{justify-content:center}.text-5xl{font-size:3rem;line-height:1}.md\:text-6xl{font-size:3.75rem;line-height:1}.lg\:text-7xl{font-size:4.5rem;line-height:1}.font-bold{font-weight:700}.mb-6{margin-bottom:1.5rem}.max-w-3xl{max-width:48rem}.mx-auto{margin-left:auto;margin-right:auto}.px-4{padding-left:1rem;padding-right:1rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.md\:text-xl{font-size:1.25rem;line-height:1.75rem}.text-white\/90{color:rgba(255,255,255,0.9)}.mb-8{margin-bottom:2rem}.max-w-2xl{max-width:42rem}.leading-relaxed{line-height:1.625}.gap-6{gap:1.5rem}.btn-primary{padding-left:2rem;padding-right:2rem;padding-top:0.75rem;padding-bottom:0.75rem;background-color:#238636;color:white;border-radius:0.375rem;font-size:1.125rem;line-height:1.75rem}.btn-secondary{padding-left:2rem;padding-right:2rem;padding-top:0.75rem;padding-bottom:0.75rem;background-color:transparent;color:#c9d1d9;border:1px solid #30363d;border-radius:0.375rem;font-size:1.125rem;line-height:1.75rem}.sticky{position:sticky}.top-0{top:0}.z-50{z-index:50}.bg-github-dark\/80{background-color:rgba(13,17,23,0.8)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.border-b{border-bottom-width:1px}.border-github-border{border-color:#30363d}.max-w-5xl{max-width:64rem}.h-16{height:4rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.hidden{display:none}.sm\:flex{display:flex}.space-x-8>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem*var(--tw-space-x-reverse));margin-left:calc(2rem*calc(1 - var(--tw-space-x-reverse)))}.text-github-text{color:#c9d1d9}.hover\:text-pink-300:hover{color:#fbbf24}.transition-colors{transition-duration:150ms;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(0.4,0,0.2,1)}
+    </style>
     <!-- Preload critical assets -->
-    <link rel="preload" href="%PUBLIC_URL%/static/css/main.css" as="style" />
+    <link rel="preload" href="%PUBLIC_URL%/static/css/main.f2b349f7.css" as="style" />
     <link rel="preload" href="%PUBLIC_URL%/static/js/main.js" as="script" />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" as="style" />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
